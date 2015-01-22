@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -45,7 +46,7 @@ group :development, :test do
 
 
 
-group :development, :test do
+group :doc do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
